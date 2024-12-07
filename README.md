@@ -11,9 +11,9 @@ Berikut adalah versi update README dengan badge yang disesuaikan:
 
 # Machine Learning Tasks
 
-![Python](https://img.shields.io/badge/Python-3.10.6-blue)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5.2-orange)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12.0-lightblue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.1.3-green)
 ![License](https://img.shields.io/github/license/rrizqiaa/MachineLearningTasks)
