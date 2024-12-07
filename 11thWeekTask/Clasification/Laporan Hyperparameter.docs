@@ -1,7 +1,5 @@
 ### **Analisa dan Laporan Akhir untuk Eksperimen Hyperparameter**
 
-Berikut adalah ringkasan analisa untuk setiap hyperparameter yang diuji, berdasarkan eksperimen yang telah dilakukan:
-
 ---
 
 ### **1. Hidden Layers dan Jumlah Neuron**
@@ -101,4 +99,4 @@ Berdasarkan hasil eksperimen, konfigurasi optimal untuk model adalah:
 - **Learning Rate:** 0.01
 - **Batch Size:** 64
 
-Konfigurasi ini memberikan akurasi terbaik sambil tetap mempertahankan efisiensi pelatihan. Apakah Anda ingin saya menyusun laporan ini dalam format PDF atau menambahkan visualisasi?
+Konfigurasi ini memberikan akurasi terbaik sambil tetap mempertahankan efisiensi pelatihan.
