@@ -1,0 +1,104 @@
+### **Analisa dan Laporan Akhir untuk Eksperimen Hyperparameter**
+
+Berikut adalah ringkasan analisa untuk setiap hyperparameter yang diuji, berdasarkan eksperimen yang telah dilakukan:
+
+---
+
+### **1. Hidden Layers dan Jumlah Neuron**
+#### **Konfigurasi yang Diuji:**
+- 1 hidden layer (16 neurons): Akurasi = **85.37%**
+- 2 hidden layers (16, 32 neurons): Akurasi = **87.32%**
+- 3 hidden layers (16, 32, 64 neurons): Akurasi = **95.12%**
+
+#### **Analisis:**
+- Penambahan hidden layer dan jumlah neuron meningkatkan akurasi model.
+- Model dengan 3 hidden layers memiliki akurasi terbaik, menunjukkan bahwa kompleksitas tambahan membantu model menangkap pola non-linear lebih baik.
+
+#### **Rekomendasi:**
+Gunakan **3 hidden layers (16, 32, 64 neurons)** untuk performa optimal pada dataset ini.
+
+---
+
+### **2. Fungsi Aktivasi**
+#### **Konfigurasi yang Diuji:**
+- Linear: Akurasi = **80.98%**
+- Sigmoid: Akurasi = **81.46%**
+- ReLU: Akurasi = **94.63%**
+- Softmax: Akurasi = **82.44%**
+- Tanh: Akurasi = **87.80%**
+
+#### **Analisis:**
+- ReLU menunjukkan performa terbaik dengan akurasi **94.63%**.
+- Fungsi Sigmoid dan Tanh cukup baik, tetapi kalah dari ReLU.
+- Linear dan Softmax kurang efektif karena tidak menangani pola non-linear dengan baik.
+
+#### **Rekomendasi:**
+Gunakan **ReLU** sebagai fungsi aktivasi untuk hidden layers.
+
+---
+
+### **3. Epoch**
+#### **Konfigurasi yang Diuji:**
+- Epoch = 1: Akurasi = **75.61%**
+- Epoch = 10: Akurasi = **85.85%**
+- Epoch = 25: Akurasi = **91.22%**
+- Epoch = 50: Akurasi = **93.17%**
+- Epoch = 100: Akurasi = **95.61%**
+- Epoch = 250: Akurasi = **96.10%**
+
+#### **Analisis:**
+- Akurasi meningkat dengan bertambahnya epoch.
+- Setelah 100 epoch, peningkatan akurasi menjadi lebih lambat, menunjukkan **diminishing returns**.
+
+#### **Rekomendasi:**
+Gunakan **100 epoch** untuk keseimbangan antara waktu pelatihan dan akurasi.
+
+---
+
+### **4. Learning Rate**
+#### **Konfigurasi yang Diuji:**
+- 10: Akurasi = **51.71%**
+- 1: Akurasi = **60.98%**
+- 0.1: Akurasi = **88.78%**
+- 0.01: Akurasi = **99.02%**
+- 0.001: Akurasi = **91.71%**
+- 0.0001: Akurasi = **81.95%**
+
+#### **Analisis:**
+- Learning rate terlalu tinggi (10, 1) menyebabkan model tidak stabil.
+- Learning rate terlalu rendah (0.0001) menyebabkan konvergensi lambat.
+- Learning rate **0.01** memberikan performa terbaik dengan akurasi **99.02%**.
+
+#### **Rekomendasi:**
+Gunakan **learning rate 0.01** untuk pelatihan model.
+
+---
+
+### **5. Batch Size**
+#### **Konfigurasi yang Diuji:**
+- 16: Akurasi = **94.88%**
+- 32: Akurasi = **95.12%**
+- 64: Akurasi = **95.37%**
+- 128: Akurasi = **95.37%**
+- 256: Akurasi = **94.63%**
+- 512: Akurasi = **93.90%**
+
+#### **Analisis:**
+- Batch size kecil (16) memberikan akurasi yang baik tetapi membutuhkan lebih banyak waktu komputasi.
+- Batch size terlalu besar (512) mengurangi akurasi.
+- Batch size **64 atau 128** memberikan keseimbangan terbaik antara akurasi dan efisiensi.
+
+#### **Rekomendasi:**
+Gunakan **batch size 64 atau 128**.
+
+---
+
+### **Kesimpulan Akhir**
+Berdasarkan hasil eksperimen, konfigurasi optimal untuk model adalah:
+- **Hidden Layers:** 3 hidden layers (16, 32, 64 neurons)
+- **Fungsi Aktivasi:** ReLU
+- **Epoch:** 100
+- **Learning Rate:** 0.01
+- **Batch Size:** 64
+
+Konfigurasi ini memberikan akurasi terbaik sambil tetap mempertahankan efisiensi pelatihan. Apakah Anda ingin saya menyusun laporan ini dalam format PDF atau menambahkan visualisasi?
