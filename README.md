@@ -3,21 +3,46 @@
 Task 
 https://kalbecorp-my.sharepoint.com/:x:/p/shinta_hanafia/ETs1m-9lDftPuTkb6QkvgJYBHdbWBy0x3yssJXUAY56PWg?e=xd33gs
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24-orange)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
-![License](https://img.shields.io/github/license/rrizqiaa/MachineLearningTasks)
 
 liblary version
-tensorflow                   2.12.0
-xgboost                      2.1.3
-scikit-learn                 1.5.2
+Berikut adalah versi update README dengan badge yang disesuaikan:
+
+---
+
+# Machine Learning Tasks
+
+![Python](https://img.shields.io/badge/Python-3.10.6-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5.2-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-red)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12.0-lightblue)
+![XGBoost](https://img.shields.io/badge/XGBoost-2.1.3-green)
+![License](https://img.shields.io/github/license/rrizqiaa/MachineLearningTasks)
+
+Repository ini berisi berbagai tugas dan proyek terkait pembelajaran mesin (Machine Learning) yang mencakup model regresi, klasifikasi, clustering, hingga implementasi menggunakan PyTorch, TensorFlow, dan XGBoost. Setiap proyek disusun dengan struktur yang terorganisir, termasuk dataset, kode Python, dan laporan analisis.
+
+---
+
+## 📁 Struktur Proyek
+- **Datasets**: Semua dataset yang digunakan dalam analisis.
+- **Notebooks**: File `.ipynb` untuk setiap proyek, berisi kode, visualisasi, dan penjelasan ilmiah.
+- **Reports**: Laporan hasil analisis dalam format PDF.
+- **Screenshots**: Dokumentasi visual untuk proyek tertentu seperti Orange Data Mining.
+
+---
+
+## 🔍 Proyek Utama
+### 1. **Regresi**
+   - **Linear Regression**:
+     - Dataset: `Salary_Data.csv`, `50_Startups.csv`, `Position_Salaries.csv`.
+     - Implementasi menggunakan Scikit-learn dan basis fungsi.
+     -
 
 Repository ini terkait pembelajaran mesin (Machine Learning) yang mencakup model regresi, klasifikasi, clustering, hingga implementasi menggunakan PyTorch. Setiap proyek disusun dengan struktur yang terorganisir, termasuk dataset, kode Python, dan laporan analisis.
 
 Semua tugas di jalankan secara lokal menggunakan CUDA Environment Jupyter Notebooks & VSCode
 
 Referensi Setup Cuda Environment
+
 https://amansingh3110.medium.com/how-to-set-up-cuda-environment-for-jupyter-notebooks-vscode-a-comprehensive-guide-669f00ba07f7
 
 ---
