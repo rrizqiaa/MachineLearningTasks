@@ -4,16 +4,11 @@ Task
 https://kalbecorp-my.sharepoint.com/:x:/p/shinta_hanafia/ETs1m-9lDftPuTkb6QkvgJYBHdbWBy0x3yssJXUAY56PWg?e=xd33gs
 
 
-liblary version
-Berikut adalah versi update README dengan badge yang disesuaikan:
-
----
-
 # Machine Learning Tasks
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.10.6-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5.2-orange)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12.0-lightblue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.1.3-green)
 ![License](https://img.shields.io/github/license/rrizqiaa/MachineLearningTasks)
