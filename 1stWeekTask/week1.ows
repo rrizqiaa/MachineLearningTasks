@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(45.0, 199.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(154.0, 112.0)" />
+		<node id="2" name="Linear Regression" qualified_name="Orange.widgets.model.owlinearregression.OWLinearRegression" project_name="Orange3" version="" title="Linear Regression" position="(375.0, 112.0)" />
+		<node id="3" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(266.0, 206.0)" />
+		<node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(482.0, 200.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="3" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="1" sink_node_id="3" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="3" source_node_id="2" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset/Salary_Data.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset/50_Startups.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 5, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset/Iris.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 6, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset/Position_Salaries.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 3, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset/Social_Network_Ads.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 3, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/Kuliah/Semester 7/Machine learning/teachingMLDL-main/teachingMLDL-main/01. Machine Learning/01. Week 1/Dataset', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04t\x00\x00\x02\x08\x00\x00\x05\x8b\x00\x00\x03\\\x00\x00\x04u\x00\x00\x02'\x00\x00\x05\x8a\x00\x00\x03[\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04u\x00\x00\x02'\x00\x00\x05\x8a\x00\x00\x03[", '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x0c\x00\x00\x01\x7f\x00\x00\x05-\x00\x00\x03\x92\x00\x00\x02\r\x00\x00\x01\x9e\x00\x00\x05,\x00\x00\x03\x91\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x02\r\x00\x00\x01\x9e\x00\x00\x05,\x00\x00\x03\x91', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': True, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'alpha_index': 0, 'auto_apply': True, 'autosend': True, 'controlAreaVisible': True, 'fit_intercept': True, 'l2_ratio': 0.5, 'learner_name': '', 'reg_type': 1, 'ridge': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03_\x00\x00\x01\xdc\x00\x00\x04\xab\x00\x00\x03S\x00\x00\x03`\x00\x00\x01\xfb\x00\x00\x04\xaa\x00\x00\x03R\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03`\x00\x00\x01\xfb\x00\x00\x04\xaa\x00\x00\x03R', '__version__': 1}</properties>
+		<properties node_id="3" format="pickle">gASVGwQAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAosAAAFW
+AAAE5AAAA80AAAKMAAABdQAABOMAAAPMAAAAAAAAAAAKAAAAAowAAAF1AAAE4wAAA8yUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMD1llYXJzRXhwZXJpZW5jZZRLAoaUjAlhdHRyaWJ1dGWUSwCGlIwG
+U2FsYXJ5lEsChpSMBWNsYXNzlEsAhpR1Sv7///+GlGgHSwF1jAphdHRyaWJ1dGVzlH2UKIwPWWVh
+cnNFeHBlcmllbmNllEsCjAZTYWxhcnmUSwJ1jAVtZXRhc5R9lHViaAwpgZR9lChoD32UKGgRfZQo
+jAlSJkQgU3BlbmSUSwKGlGgVSwCGlIwOQWRtaW5pc3RyYXRpb26USwKGlGgVSwGGlIwPTWFya2V0
+aW5nIFNwZW5klEsChpRoFUsChpSMBVN0YXRllEsBhpRoFUsDhpSMBlByb2ZpdJRLAoaUaBVLBIaU
+dUr+////hpRoB0sBdWgcfZQoaCZLAmgpSwJoLEsCaC9LAWgySwJ1aCB9lHViaAwpgZR9lChoD32U
+KGgRfZQojAJJZJRLAoaUaBVLAIaUjA1TZXBhbExlbmd0aENtlEsChpRoFUsBhpSMDFNlcGFsV2lk
+dGhDbZRLAoaUaBVLAoaUjA1QZXRhbExlbmd0aENtlEsChpRoFUsDhpSMDFBldGFsV2lkdGhDbZRL
+AoaUaBVLBIaUjAdTcGVjaWVzlEsBhpRoFUsFhpR1Sv7///+GlGgHSwF1aBx9lChoPEsCaD9LAmhC
+SwJoRUsCaEhLAmhLSwF1aCB9lHViaAwpgZR9lChoD32UKGgRfZQojAVMZXZlbJRLAoaUaBVLAIaU
+jAZTYWxhcnmUSwKGlGgZSwCGlIwIUG9zaXRpb26USwOGlIwEbWV0YZRLAIaUdUr+////hpRoB0sB
+dWgcfZQoaFVLAmhYSwJ1aCB9lGhbSwNzdWJoDCmBlH2UKGgPfZQoaBF9lCiMA0FnZZRLAoaUaBVL
+AIaUjA9Fc3RpbWF0ZWRTYWxhcnmUSwKGlGgVSwGGlIwJUHVyY2hhc2VklEsBhpRoFUsChpR1Sv7/
+//+GlGgHSwF1aBx9lChoZksCaGlLAmhsSwF1aCB9lHViZXUu
+</properties>
+		<properties node_id="4" format="literal">{'comparison_criterion': 0, 'controlAreaVisible': True, 'cv_stratified': False, 'n_folds': 3, 'n_repeats': 1, 'resampling': 0, 'rope': 0.1, 'sample_size': 9, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xc2\x00\x00\x02q\x00\x00\x05\xcf\x00\x00\x04\x84\x00\x00\x02\xc3\x00\x00\x02\x90\x00\x00\x05\xce\x00\x00\x04\x83\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x02\xc3\x00\x00\x02\x90\x00\x00\x05\xce\x00\x00\x04\x83', 'shuffle_stratified': True, 'use_rope': False, 'score_table': {'show_score_hints': {'Model_': True, 'Train_': False, 'Test_': False, 'CA': True, 'PrecisionRecallFSupport': True, 'TargetScore': True, 'Precision': True, 'Recall': True, 'F1': True, 'AUC': True, 'LogLoss': False, 'Specificity': False, 'MatthewsCorrCoefficient': True, 'MSE': True, 'RMSE': True, 'MAE': True, 'MAPE': True, 'R2': True, 'CVRMSE': False, 'ClusteringScore': True, 'Silhouette': True, 'AdjustedMutualInfoScore': True}}, '__version__': 4, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
