@@ -18,9 +18,7 @@ Repository ini berisi berbagai tugas dan proyek terkait pembelajaran mesin (Mach
 
 ---
 
-Repository ini terkait pembelajaran mesin (Machine Learning) yang mencakup model regresi, klasifikasi, clustering, hingga implementasi menggunakan PyTorch. Setiap proyek disusun dengan struktur yang terorganisir, termasuk dataset, kode Python, dan laporan analisis.
-
-Semua tugas di jalankan secara lokal menggunakan CUDA Environment Jupyter Notebooks & VSCode
+Semua tugas di jalankan secara lokal menggunakan CUDA Environment Jupyter Notebooks & VSCode dengan bantuan GPU NVIDIA untuk mempercepat pelatihan model.
 
 Referensi Setup Cuda Environment
 
