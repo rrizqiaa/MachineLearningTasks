@@ -1,11 +1,10 @@
 # MachineLearningTasks
 
-List Task 
+List Tugas Mingguan
 
 https://kalbecorp-my.sharepoint.com/:x:/p/shinta_hanafia/ETs1m-9lDftPuTkb6QkvgJYBHdbWBy0x3yssJXUAY56PWg?e=xd33gs
 
 
-# Machine Learning Tasks
 
 ![Python](https://img.shields.io/badge/Python-3.10.6-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5.2-orange)
