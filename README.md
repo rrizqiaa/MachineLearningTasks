@@ -1,6 +1,7 @@
 # MachineLearningTasks
 
-Task 
+List Task 
+
 https://kalbecorp-my.sharepoint.com/:x:/p/shinta_hanafia/ETs1m-9lDftPuTkb6QkvgJYBHdbWBy0x3yssJXUAY56PWg?e=xd33gs
 
 
@@ -17,21 +18,6 @@ Repository ini berisi berbagai tugas dan proyek terkait pembelajaran mesin (Mach
 
 ---
 
-## 📁 Struktur Proyek
-- **Datasets**: Semua dataset yang digunakan dalam analisis.
-- **Notebooks**: File `.ipynb` untuk setiap proyek, berisi kode, visualisasi, dan penjelasan ilmiah.
-- **Reports**: Laporan hasil analisis dalam format PDF.
-- **Screenshots**: Dokumentasi visual untuk proyek tertentu seperti Orange Data Mining.
-
----
-
-## 🔍 Proyek Utama
-### 1. **Regresi**
-   - **Linear Regression**:
-     - Dataset: `Salary_Data.csv`, `50_Startups.csv`, `Position_Salaries.csv`.
-     - Implementasi menggunakan Scikit-learn dan basis fungsi.
-     -
-
 Repository ini terkait pembelajaran mesin (Machine Learning) yang mencakup model regresi, klasifikasi, clustering, hingga implementasi menggunakan PyTorch. Setiap proyek disusun dengan struktur yang terorganisir, termasuk dataset, kode Python, dan laporan analisis.
 
 Semua tugas di jalankan secara lokal menggunakan CUDA Environment Jupyter Notebooks & VSCode
@@ -42,52 +28,11 @@ https://amansingh3110.medium.com/how-to-set-up-cuda-environment-for-jupyter-note
 
 ---
 
-## 📁 Struktur Proyek
-- **Datasets**: Semua dataset yang digunakan dalam analisis.
-- **Notebooks**: File `.ipynb` untuk setiap proyek, berisi kode, visualisasi, dan penjelasan ilmiah.
-- **Reports**: Laporan hasil analisis dalam format PDF.
-- **Screenshots**: Dokumentasi visual untuk proyek tertentu seperti Orange Data Mining.
-
----
-
-## 🔍 Proyek Utama
-### 1. **Regresi**
-   - **Linear Regression**:
-     - Dataset: `Salary_Data.csv`, `50_Startups.csv`, `Position_Salaries.csv`.
-     - Implementasi menggunakan Scikit-learn dan basis fungsi.
-     - Evaluasi: RMSE, MSE, R-squared.
-   - **MLP Regression**:
-     - Dataset: `AirQualityUCI.csv`, `winequality-red.csv`.
-     - Dibangun dengan PyTorch tanpa Dropout, BatchNorm, atau regularisasi.
-     - Perbandingan hyperparameter: hidden layers, activation functions, learning rates, batch sizes, dan epochs.
-
-### 2. **Klasifikasi**
-   - **Logistic Regression**:
-     - Dataset: `Iris.csv`, `CitarumWater`.
-     - Evaluasi menggunakan akurasi, precision, recall, F1 score, ROC, dan AUC.
-   - **MLP Classification**:
-     - Dataset: `winequality-red.csv`.
-     - Dibangun dengan PyTorch dan hyperparameter yang bervariasi.
-   - **Model Lain**:
-     - Decision Tree, k-NN, XGBoost pada dataset seperti `dota2Train.csv`.
-
-### 3. **Clustering**
-   - Dataset: `Online Retail.xlsx`, `clusteringweek06.csv`.
-   - Metode: K-Means, Hierarchical Clustering, DBSCAN.
-   - Evaluasi: Knee Method, Silhouette Score, dan metrik tambahan.
-
-### 4. **XGBoost**
-   - Dataset: `melb_data.csv`, `tugasxgboost.csv`, `tugasxgboost2.csv`.
-   - Analisis: Feature Importance, Tree Structure, SHAP Values, Partial Dependence Plot, dan Learning Curve.
-
----
-
 ## 📊 Tools dan Library yang Digunakan
 - **Python**: Core language untuk semua implementasi.
 - **Scikit-learn**: Model regresi, klasifikasi, dan clustering.
 - **PyTorch**: Implementasi model MLP untuk regresi dan klasifikasi.
 - **Orange Data Mining**: Model Logistic Regression dan analisis visual.
-- **Google Colab**: Notebook interaktif untuk eksplorasi data dan pelatihan model.
 
 ---
 
